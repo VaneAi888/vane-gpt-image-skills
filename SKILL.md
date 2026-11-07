@@ -1,6 +1,6 @@
 ---
 name: vane-portrait-gif-stickers
-description: Turn a person's supplied photo into a consistent personalized Q-style character and animated Chinese GIF sticker packs, or create another themed series from an existing character. Use for 真人照片转Q版动态表情包、个人专属表情包、韦恩表情包 and sticker-pack previews. Not a photorealistic portrait workflow.
+description: Turn an authorized photo or existing character into a consistent personalized character and genuinely animated Chinese GIF sticker packs, with changing facial expressions, gestures and poses. Use for 真人照片转Q版动态表情包、个人专属表情包、韦恩表情包 and sticker-pack previews.
 ---
 
 # 照片变 Q 版动态表情包
@@ -26,8 +26,9 @@ description: Turn a person's supplied photo into a consistent personalized Q-sty
 
 ## 生成与制作
 
-1. 按用户选定主题规划互不重复的短句、动作、表情、道具和动效。保持角色连续统一，不要仅给同一姿势换文字。逐张检查文案与姿势是否匹配。
-2. 使用图像生成工具创建透明背景的角色动作图集，一次一张，通常 4×4 等分。指定明确的逐行顺序、格子留白、不跨边界、不画字；在后期用字体添加可校验的中文。检查图集实际格数、完整的手发与道具、边界串图和身份一致性；不合格时修正或重新生成。
-3. 优先使用本 Skill 的 [图集导出器](scripts/export_pack.py)。阅读 [清单格式和动作选项](references/manifest.md)，生成 JSON 清单，按照场景选择不同的弹跳、摇摆、点头、颤动等动作，并增加动态符号。动作应在小尺寸下明显可见；避免所有贴纸只作同一种微小位移。导出器通过图层位移、缩放、剪切和符号制作动态，不会生成逐帧挥手或口型。不要将其描述为真实关节动画。
-4. 默认每张 GIF 320×320、透明背景、约两秒循环；页面和视频预览默认用统一的白底、简洁卡片设计。用户可修改版式和色彩。选择覆盖文字的本地字体；导出时传 `--preview` 生成来自实际 GIF 的 MP4，并把 GIF 与网页预览打包。原图、人物参考、图集不放入分享 ZIP，除非用户要求。
-5. 检查数量、文案、身份、手部、透明度、边距、循环、帧差、ZIP 完整性和 MP4 解码，并抽看动态效果。交付 ZIP 和可播放预览；说明动作实现方式或其他实际限制。未经用户要求不要发布、开源或上传成果。
+1. 按主题为每张设计不同的短句、主动作、情绪和必要道具。动作要体现文案，手机小尺寸下一眼可辨；不强制每张眨眼或挥手。计划起势、动作高潮、停顿和回到起点；角色、手部、道具及文字始终完整。
+2. **人物本身必须运动**：优先使用可用的视频生成、连续帧生成或可靠的分层关节动画，让人物的身体部位、表情或手持道具在时间上发生有意义的变化。整体平移、缩放、摇摆及装饰只能作为辅助，不能当作人物动作。生成工具不可用或质量达不到要求时，说明限制，不得静默降级并宣称完成角色动画。
+3. 稳定身份参考，先做少量典型动作的循环小样，检查脸、发型、衣服、体型、手、道具和风格在各帧的一致性；用户确认方向后，再批量生成。用户已确认方向或直接要求批量时，按现有授权继续。每条动作选择适合的节奏和帧数；关键帧过少、变脸或跳动明显时补帧、重做，或明确标为粗样。视频转 GIF 时检查末尾到开头的衔接，不要将交叉淡化当作真实动作。
+4. 连续帧可按动作分别生成图集：明确每格顺序、相同构图、完整手部与道具、各格留白、不跨边界、不画字；优先透明背景。使用 [连续帧导出器](scripts/export_frames.py) 和 [清单说明](references/frame-manifest.md) 按实际帧、时长与循环顺序导出，后期用字体添加可校验文案。生成的视频也可用合适的工具转码。不要用旧的 [图集导出器](scripts/export_pack.py) 伪造人物动作；它只适合用户明确接受整体图层运动的场景。
+5. 默认每张 GIF 320×320、透明背景、约两秒循环；根据动作适当调整时长。白底可用于预览，透明 GIF 需检查透明像素、边缘和目标平台的显示；无法得到可靠透明背景时如实说明。按需要交付单张 GIF、16 张整体动态预览及 ZIP，预览须从实际 GIF 制作。原图、人物参考、图集不放入分享 ZIP，除非用户要求。
+6. 实际播放检查每张：文案与动作匹配、人物确实在动作、帧间身份稳定、无截断或严重闪烁、循环衔接及文字可读。再检查数量、透明度、尺寸、ZIP 完整性及视频能否解码。帧差只能证明画面变化，不能证明人物动作合格。说明粗糙之处及实现限制；未经用户要求不要发布、开源或上传成果。
