@@ -18,6 +18,7 @@ def main():
     parser.add_argument('manifest', type=Path)
     parser.add_argument('output', type=Path, help='New output directory')
     parser.add_argument('--font', required=True)
+    parser.add_argument('--pixel-art', action='store_true', help='Use nearest-neighbor resizing for pixel-style frames')
     args = parser.parse_args()
     m = json.loads(args.manifest.read_text(encoding='utf-8'))
     entries = m['entries']
@@ -39,7 +40,7 @@ def main():
                 raise ValueError('Frame cell out of range')
             box = (round(col*sheet.width/cols), round(row*sheet.height/rows), round((col+1)*sheet.width/cols), round((row+1)*sheet.height/rows))
             tile = sheet.crop(box)
-            tile.thumbnail((300, 270), Image.Resampling.LANCZOS)
+            tile.thumbnail((300, 270), Image.Resampling.NEAREST if args.pixel_art else Image.Resampling.LANCZOS)
             canvas = Image.new('RGBA', (SIZE,SIZE), (255,255,255,0) if m.get('transparent',False) else 'white')
             canvas.alpha_composite(tile, ((SIZE-tile.width)//2, 0))
             draw = ImageDraw.Draw(canvas)
