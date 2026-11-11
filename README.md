@@ -88,7 +88,7 @@
 
 ```bash
 mkdir -p ~/.codex/skills
-git clone https://github.com/VaneAi888/vane-portrait-gif-stickers.git ~/.codex/skills/vane-portrait-gif-stickers
+git clone https://github.com/VaneAi888/vane-gpt-image-skills.git ~/.codex/skills/vane-portrait-gif-stickers
 ```
 
 **2. 上传照片或已有角色，告诉它画风和主题**
