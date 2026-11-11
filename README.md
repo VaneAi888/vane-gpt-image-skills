@@ -33,7 +33,7 @@ git clone https://github.com/VaneAi888/vane-gpt-image-skills.git ~/.codex/skills
 
 开始新对话后，上传照片或已有角色，输入 `$vane-portrait-gif-stickers`，并告诉它想要的画风和主题。可以先要求查看角色和动作小样，再继续制作完整系列。
 
-使用前请确认环境支持读取参考图和图像生成；动态 GIF 的效果取决于可用工具与素材，具体要求见[动态表情包教程](docs/portrait-gif-stickers.md#-运行环境与说明)。
+使用前请确认环境支持读取参考图和图像生成；动态 GIF 的效果取决于可用工具与素材，具体要求见[动态表情包教程](docs/portrait-gif-stickers.md)。
 
 ## ✨ 持续更新
 
