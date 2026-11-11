@@ -18,7 +18,7 @@
 
 | Q 版画风 · 4 个动作小样 | 工作主题 · 16 格动态预览 |
 | :---: | :---: |
-| [![Q版动态表情小样](previews/style-01-chibi.gif)](docs/portrait-gif-stickers.md) | [![工作主题动态预览](previews/01-work.gif)](docs/portrait-gif-stickers.md) |
+| <a href="docs/portrait-gif-stickers.md"><img src="previews/style-01-chibi.gif" width="320" alt="Q版动态表情小样"></a> | <a href="docs/portrait-gif-stickers.md"><img src="previews/01-work.gif" width="320" alt="工作主题动态预览"></a> |
 
 👉 **[查看全部 12 种画风、6 个主题与使用教程](docs/portrait-gif-stickers.md)**
 
