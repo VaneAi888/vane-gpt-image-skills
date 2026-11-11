@@ -2,6 +2,8 @@
 
 **GPT Image 2.6 好玩又能用的开源玩法合集，持续更新**
 
+🏠 [作者个人主页 · Vane Studio](https://vane-creative-portfolio.krismile-7.chatgpt.site/)
+
 这里收集可以直接上手的 AI 生图 Skill。每个玩法都有自己的效果展示和使用说明，从角色表情包开始，以后也会逐步收录封面、配图和其他创意玩法。
 
 > 目前已收录 **1 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
@@ -38,6 +40,12 @@ git clone https://github.com/VaneAi888/vane-gpt-image-skills.git ~/.codex/skills
 ## ✨ 持续更新
 
 未来计划按用途整理更多生图玩法，例如封面与社交媒体、文章与知识配图、照片与生活创意，以及趣味视觉实验。新 Skill 完成并具备使用说明后，会加入对应分区。
+
+## 👋 关于作者
+
+我是 **韦恩 Vane**，一名关注 AI 创作与品牌视觉设计的设计师。我分享 AI 工具、视觉创意和实用工作流，也会把有趣的实践整理成开源 Skill。
+
+欢迎到 [Vane Studio 个人主页](https://vane-creative-portfolio.krismile-7.chatgpt.site/) 了解我的作品与创作方向。
 
 ## 📄 许可证
 
