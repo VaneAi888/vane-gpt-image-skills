@@ -42,16 +42,19 @@
 
 ## 🚀 开始使用
 
-每个 Skill 的安装与使用方法可能不同，请打开对应教程查看。动态表情包 Skill 可以在支持 Skill 的 Codex 环境中安装：
+先克隆合集，再选择安装单个或全部 Skill：
 
 ```bash
-mkdir -p ~/.codex/skills
-git clone https://github.com/VaneAi888/vane-gpt-image-skills.git ~/.codex/skills/vane-portrait-gif-stickers
+git clone https://github.com/VaneAi888/vane-gpt-image-skills.git
+cd vane-gpt-image-skills
+python3 scripts/install_skills.py --all
 ```
 
-开始新对话后，上传照片或已有角色，输入 `$vane-portrait-gif-stickers`，并告诉它想要的画风和主题。可以先要求查看角色和动作小样，再继续制作完整系列。
+安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers` 或 `$vane-pixel-visuals` 调用。
 
-使用前请确认环境支持读取参考图和图像生成；动态 GIF 的效果取决于可用工具与素材，具体要求见[动态表情包教程](docs/portrait-gif-stickers.md)。像素视觉 Skill 的安装方法及参考素材，请查看[像素视觉教程](docs/vane-pixel-visuals.md)。
+👉 **[统一安装教程](docs/installation.md)** · **[效果与安装测试记录](docs/testing.md)**
+
+使用前请确认环境支持读取参考图和图像生成；GIF 动作、图片文字和透明背景的效果取决于实际素材与可用工具。
 
 ## ✨ 持续更新
 
