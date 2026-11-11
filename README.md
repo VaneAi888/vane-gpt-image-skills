@@ -6,7 +6,7 @@
 
 这里收集可以直接上手的 AI 生图 Skill。每个玩法都有自己的效果展示和使用说明，从角色表情包开始，以后也会逐步收录封面、配图和其他创意玩法。
 
-> 目前已收录 **1 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
+> 目前已收录 **2 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
 
 ## 📚 Skill 合集
 
@@ -24,9 +24,29 @@
 
 👉 **[查看全部 12 种画风、6 个主题与使用教程](docs/portrait-gif-stickers.md)**
 
+### 🖼️ 封面与社交媒体
+
+#### [紫色像素风 · X 文章视觉](docs/vane-pixel-visuals.md)
+
+用统一的紫色像素品牌风格，制作 X 文章封面与正文配图。可随文章主题设计插画、流程图和对比图。
+
+**5:2 文章封面** · **16:9 正文配图** · **3D 像素视觉**
+
+<a href="docs/vane-pixel-visuals.md"><img src="skills/vane-pixel-visuals/assets/cover-example.png" width="680" alt="紫色像素风 X 文章封面示例"></a>
+
+**正文配图 · 生图流程**
+
+<a href="docs/vane-pixel-visuals.md"><img src="skills/vane-pixel-visuals/assets/article-scenes.png" width="680" alt="紫色像素风生图流程示例"></a>
+
+**正文配图 · 封面与正文对比**
+
+<a href="docs/vane-pixel-visuals.md"><img src="skills/vane-pixel-visuals/assets/article-gallery.png" width="680" alt="紫色像素风封面与正文对比示例"></a>
+
+👉 **[查看封面、正文配图与完整使用教程](docs/vane-pixel-visuals.md)**
+
 ## 🚀 开始使用
 
-每个 Skill 的安装与使用方法可能不同，请打开对应教程查看。当前收录的动态表情包 Skill，可以在支持 Skill 的 Codex 环境中安装：
+每个 Skill 的安装与使用方法可能不同，请打开对应教程查看。动态表情包 Skill 可以在支持 Skill 的 Codex 环境中安装：
 
 ```bash
 mkdir -p ~/.codex/skills
@@ -35,7 +55,7 @@ git clone https://github.com/VaneAi888/vane-gpt-image-skills.git ~/.codex/skills
 
 开始新对话后，上传照片或已有角色，输入 `$vane-portrait-gif-stickers`，并告诉它想要的画风和主题。可以先要求查看角色和动作小样，再继续制作完整系列。
 
-使用前请确认环境支持读取参考图和图像生成；动态 GIF 的效果取决于可用工具与素材，具体要求见[动态表情包教程](docs/portrait-gif-stickers.md)。
+使用前请确认环境支持读取参考图和图像生成；动态 GIF 的效果取决于可用工具与素材，具体要求见[动态表情包教程](docs/portrait-gif-stickers.md)。像素视觉 Skill 的安装方法及参考素材，请查看[像素视觉教程](docs/vane-pixel-visuals.md)。
 
 ## ✨ 持续更新
 
