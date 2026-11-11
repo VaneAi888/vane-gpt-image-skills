@@ -38,10 +38,6 @@
 
 <a href="docs/vane-pixel-visuals.md"><img src="skills/vane-pixel-visuals/assets/article-scenes.png" width="680" alt="紫色像素风生图流程示例"></a>
 
-**正文配图 · 封面与正文对比**
-
-<a href="docs/vane-pixel-visuals.md"><img src="skills/vane-pixel-visuals/assets/article-gallery.png" width="680" alt="紫色像素风封面与正文对比示例"></a>
-
 👉 **[查看封面、正文配图与完整使用教程](docs/vane-pixel-visuals.md)**
 
 ## 🚀 开始使用
