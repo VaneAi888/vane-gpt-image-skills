@@ -16,29 +16,11 @@
 
 四张预览各包含 9 种版式，按编号覆盖全部 **01—36**。点击图片可查看原图。
 
-### 01—09 · 人物主导
-
-从单人特写、双人关系到群像排列，重点展示人物的大小、位置和人物关系。
-
-[![电影海报版式 01—09 人物主导预览](../skills/vane-cinematic-poster/assets/poster-layouts-01-09.png)](../skills/vane-cinematic-poster/assets/poster-layouts-01-09.png)
-
-### 10—18 · 字体主导
-
-用巨型片名、竖排文字、字中有画等方式，探索文字与画面的关系。
-
-[![电影海报版式 10—18 字体主导预览](../skills/vane-cinematic-poster/assets/poster-layouts-10-18.png)](../skills/vane-cinematic-poster/assets/poster-layouts-10-18.png)
-
-### 19—27 · 场景与空间
-
-用地平线、建筑框景、透视和空间尺度，突出影片的环境与叙事氛围。
-
-[![电影海报版式 19—27 场景与空间预览](../skills/vane-cinematic-poster/assets/poster-layouts-19-27.png)](../skills/vane-cinematic-poster/assets/poster-layouts-19-27.png)
-
-### 28—36 · 概念与图形
-
-用物件、剪影、拼贴、倒影与几何色块，表达影片中的线索或主题。
-
-[![电影海报版式 28—36 概念与图形预览](../skills/vane-cinematic-poster/assets/poster-layouts-28-36.png)](../skills/vane-cinematic-poster/assets/poster-layouts-28-36.png)
+| **01—09 · 人物主导** | **10—18 · 字体主导** |
+| :---: | :---: |
+| [![电影海报版式 01 至 09 人物主导](../skills/vane-cinematic-poster/assets/poster-layouts-01-09.png)](../skills/vane-cinematic-poster/assets/poster-layouts-01-09.png) | [![电影海报版式 10 至 18 字体主导](../skills/vane-cinematic-poster/assets/poster-layouts-10-18.png)](../skills/vane-cinematic-poster/assets/poster-layouts-10-18.png) |
+| **19—27 · 场景与空间** | **28—36 · 概念与图形** |
+| [![电影海报版式 19 至 27 场景与空间](../skills/vane-cinematic-poster/assets/poster-layouts-19-27.png)](../skills/vane-cinematic-poster/assets/poster-layouts-19-27.png) | [![电影海报版式 28 至 36 概念与图形](../skills/vane-cinematic-poster/assets/poster-layouts-28-36.png)](../skills/vane-cinematic-poster/assets/poster-layouts-28-36.png) |
 
 > 预览图是构图和排版的创意示例。图中的人物、演员与主创姓名、片方及荣誉文字仅用于视觉展示，不代表真实影片信息、合作、授权或背书。正式使用前请核对文字和素材使用权。
 
