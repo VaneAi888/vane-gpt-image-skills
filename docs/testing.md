@@ -30,6 +30,8 @@
 
 已查看[流程图](../skills/vane-pixel-visuals/assets/article-scenes.png)和[对比图](../skills/vane-pixel-visuals/assets/article-gallery.png)：两张图采用不同构图，图中中文标题和主要标签可辨认。本轮检查了仓库已有示例和参考素材，没有重新生成一套新的个人品牌视觉。完整图片见[独立教程](vane-pixel-visuals.md)。
 
+**2026-11-12 正文视觉更新：**为电影海报教程制作了白底[构图对比](../skills/vane-pixel-visuals/assets/article-white-comparison.png)、[功能说明](../skills/vane-pixel-visuals/assets/article-white-functions.png)及[步骤说明](../skills/vane-pixel-visuals/assets/article-white-steps.png)三张静态样图，作为正文默认风格参考。图片实际背景可能存在接近白色的像素；如需精确 #FFFFFF，应另行检查。原有正文样例仍作为历史参考保留。
+
 ## 🎬 电影级海报设计
 
 **检查日期：2026-11-12**

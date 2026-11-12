@@ -28,15 +28,15 @@
 
 #### [紫色像素风 · X 文章视觉](docs/vane-pixel-visuals.md)
 
-用统一的紫色像素品牌风格，制作 X 文章封面与正文配图。可随文章主题设计插画、流程图和对比图。
+用统一的紫色像素品牌风格，制作 X 文章封面与白底正文配图。可随文章主题设计插画、流程图和对比图。
 
 **5:2 文章封面** · **16:9 正文配图** · **3D 像素视觉**
 
 <a href="docs/vane-pixel-visuals.md"><img src="skills/vane-pixel-visuals/assets/cover-example.png" width="680" alt="紫色像素风 X 文章封面示例"></a>
 
-**正文配图 · 生图流程**
+**正文配图 · Skill 用途**
 
-<a href="docs/vane-pixel-visuals.md"><img src="skills/vane-pixel-visuals/assets/article-scenes.png" width="680" alt="紫色像素风生图流程示例"></a>
+<a href="docs/vane-pixel-visuals.md"><img src="skills/vane-pixel-visuals/assets/article-white-functions.png" width="680" alt="白底紫色像素风 Skill 用途示例"></a>
 
 👉 **[查看封面、正文配图与完整使用教程](docs/vane-pixel-visuals.md)**
 
