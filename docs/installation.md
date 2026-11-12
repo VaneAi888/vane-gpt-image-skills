@@ -2,12 +2,13 @@
 
 [← 返回 Skill 合集首页](../README.md)
 
-本合集目前有两个 Skill，可以任选一个，也可以一起安装。下面的命令适用于有 Python 3、Git 和 Codex 的 macOS / Linux 环境。
+本合集目前有三个 Skill，可以任选一个，也可以一起安装。下面的命令适用于有 Python 3、Git 和 Codex 的 macOS / Linux 环境。
 
 | Skill | 用途 | 调用名称 |
 | --- | --- | --- |
 | 照片转动态表情包 | 使用照片或角色制作多画风 GIF 表情包 | `$vane-portrait-gif-stickers` |
 | 紫色像素风 · X 文章视觉 | 制作 X 文章封面和正文配图 | `$vane-pixel-visuals` |
+| 电影级海报设计 | 选择 36 种构图，制作电影海报方案或图片 | `$vane-cinematic-poster` |
 
 ## 1. 获取合集
 
@@ -44,9 +45,13 @@ python3 scripts/install_skills.py --skill vane-portrait-gif-stickers
 python3 scripts/install_skills.py --skill vane-pixel-visuals
 ```
 
+```bash
+python3 scripts/install_skills.py --skill vane-cinematic-poster
+```
+
 默认安装到 `~/.codex/skills/`。安装器会复制每个 Skill 需要的指令和参考素材，不会自动安装 Pillow 或 FFmpeg 等依赖。
 
-**已有同名 Skill 时，安装器会停止，不会覆盖原文件。** 如果只想新增另一个 Skill，请使用对应的单独安装命令；如果需要替换已有版本，请先备份并移走原目录，再运行安装命令。`--all` 会在开始复制前检查两个目标，任意一个已存在时不会安装另一个。
+**已有同名 Skill 时，安装器会停止，不会覆盖原文件。** 如果只想新增另一个 Skill，请使用对应的单独安装命令；如果需要替换已有版本，请先备份并移走原目录，再运行安装命令。`--all` 会在开始复制前检查全部目标，任意一个已存在时不会安装其他 Skill。
 
 ## 3. 开始使用
 
@@ -54,6 +59,7 @@ python3 scripts/install_skills.py --skill vane-pixel-visuals
 
 - [动态表情包示例与使用教程](portrait-gif-stickers.md)
 - [紫色像素视觉示例与使用教程](vane-pixel-visuals.md)
+- [电影级海报示例与使用教程](vane-cinematic-poster.md)
 - [效果测试记录](testing.md)
 
 使用时需要支持读取参考图和图像生成的环境。动态 GIF 的制作可能还需要 Pillow、FFmpeg 或其他可用工具；实际能力、文字准确性和动作流畅度请以当前环境及生成结果为准。

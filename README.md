@@ -6,7 +6,7 @@
 
 这里收集可以直接上手的 AI 生图 Skill。每个玩法都有自己的效果展示和使用说明，从角色表情包开始，以后也会逐步收录封面、配图和其他创意玩法。
 
-> 目前已收录 **2 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
+> 目前已收录 **3 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
 
 ## 📚 Skill 合集
 
@@ -40,6 +40,34 @@
 
 👉 **[查看封面、正文配图与完整使用教程](docs/vane-pixel-visuals.md)**
 
+### 🎬 电影海报与视觉设计
+
+#### [电影级海报设计](docs/vane-cinematic-poster.md)
+
+根据影片故事和素材，选择构图、设计文字层级，制作电影海报方案、提示词或实际图片。
+
+**36 种版式** · **4 组完整预览** · **默认竖版 2:3**
+
+**01—09 · 人物主导**
+
+<a href="skills/vane-cinematic-poster/assets/poster-layouts-01-09.png"><img src="skills/vane-cinematic-poster/assets/poster-layouts-01-09.png" width="680" alt="电影海报版式 01 至 09 人物主导"></a>
+
+**10—18 · 字体主导**
+
+<a href="skills/vane-cinematic-poster/assets/poster-layouts-10-18.png"><img src="skills/vane-cinematic-poster/assets/poster-layouts-10-18.png" width="680" alt="电影海报版式 10 至 18 字体主导"></a>
+
+**19—27 · 场景与空间**
+
+<a href="skills/vane-cinematic-poster/assets/poster-layouts-19-27.png"><img src="skills/vane-cinematic-poster/assets/poster-layouts-19-27.png" width="680" alt="电影海报版式 19 至 27 场景与空间"></a>
+
+**28—36 · 概念与图形**
+
+<a href="skills/vane-cinematic-poster/assets/poster-layouts-28-36.png"><img src="skills/vane-cinematic-poster/assets/poster-layouts-28-36.png" width="680" alt="电影海报版式 28 至 36 概念与图形"></a>
+
+预览为构图示例，图片中的人物姓名、片方及荣誉文字不代表真实影片信息或授权背书。
+
+👉 **[查看 36 种版式介绍与完整使用教程](docs/vane-cinematic-poster.md)**
+
 ## 🚀 开始使用
 
 先克隆合集，再选择安装单个或全部 Skill：
@@ -50,7 +78,7 @@ cd vane-gpt-image-skills
 python3 scripts/install_skills.py --all
 ```
 
-安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers` 或 `$vane-pixel-visuals` 调用。
+安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers`、`$vane-pixel-visuals` 或 `$vane-cinematic-poster` 调用。
 
 👉 **[统一安装教程](docs/installation.md)** · **[效果与安装测试记录](docs/testing.md)**
 

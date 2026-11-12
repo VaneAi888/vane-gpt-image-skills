@@ -27,6 +27,9 @@ class InstallationTests(unittest.TestCase):
             self.assertTrue((target / "vane-pixel-visuals/SKILL.md").is_file())
             self.assertTrue((target / "vane-pixel-visuals/assets/article-scenes.png").is_file())
             self.assertTrue((target / "vane-pixel-visuals/assets/pixel-avatar.png").is_file())
+            self.assertTrue((target / "vane-cinematic-poster/SKILL.md").is_file())
+            self.assertTrue((target / "vane-cinematic-poster/references/layouts.md").is_file())
+            self.assertTrue((target / "vane-cinematic-poster/assets/poster-layouts-28-36.png").is_file())
             self.assertFalse((target / "vane-portrait-gif-stickers/.git").exists())
             self.assertFalse((target / "vane-portrait-gif-stickers/skills").exists())
 
@@ -40,6 +43,7 @@ class InstallationTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0)
             self.assertEqual((existing / "SKILL.md").read_text(encoding="utf-8"), "保留原内容")
             self.assertFalse((target / "vane-portrait-gif-stickers").exists())
+            self.assertFalse((target / "vane-cinematic-poster").exists())
 
     def test_install_one_and_leave_other_alone(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -55,6 +59,16 @@ class InstallationTests(unittest.TestCase):
             result = self.run_installer(target, "--skill", "vane-portrait-gif-stickers")
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertTrue((target / "vane-portrait-gif-stickers/scripts/export_frames.py").is_file())
+            self.assertFalse((target / "vane-pixel-visuals").exists())
+
+    def test_install_posters_alone(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "skills"
+            result = self.run_installer(target, "--skill", "vane-cinematic-poster")
+            self.assertEqual(result.returncode, 0, result.stderr)
+            skill = target / "vane-cinematic-poster"
+            self.assertTrue((skill / "references/layouts.md").is_file())
+            self.assertEqual(len(list((skill / "assets").glob("poster-layouts-*.png"))), 4)
             self.assertFalse((target / "vane-pixel-visuals").exists())
 
 
