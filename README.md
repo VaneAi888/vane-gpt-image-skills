@@ -38,14 +38,6 @@
 
 **36 种版式** · **中英文各 4 组预览** · **默认竖版 2:3**
 
-**中文海报预览**
-
-| **01—09 · 人物主导** | **10—18 · 字体主导** |
-| :---: | :---: |
-| [![中文电影海报版式 01 至 09](skills/vane-cinematic-poster/assets/poster-layouts-zh-01-09.png)](skills/vane-cinematic-poster/assets/poster-layouts-zh-01-09.png) | [![中文电影海报版式 10 至 18](skills/vane-cinematic-poster/assets/poster-layouts-zh-10-18.png)](skills/vane-cinematic-poster/assets/poster-layouts-zh-10-18.png) |
-| **19—27 · 场景与空间** | **28—36 · 概念与图形** |
-| [![中文电影海报版式 19 至 27](skills/vane-cinematic-poster/assets/poster-layouts-zh-19-27.png)](skills/vane-cinematic-poster/assets/poster-layouts-zh-19-27.png) | [![中文电影海报版式 28 至 36](skills/vane-cinematic-poster/assets/poster-layouts-zh-28-36.png)](skills/vane-cinematic-poster/assets/poster-layouts-zh-28-36.png) |
-
 **英文海报预览**
 
 | **01—09 · 人物主导** | **10—18 · 字体主导** |
@@ -53,6 +45,14 @@
 | [![电影海报版式 01 至 09 人物主导](skills/vane-cinematic-poster/assets/poster-layouts-01-09.png)](skills/vane-cinematic-poster/assets/poster-layouts-01-09.png) | [![电影海报版式 10 至 18 字体主导](skills/vane-cinematic-poster/assets/poster-layouts-10-18.png)](skills/vane-cinematic-poster/assets/poster-layouts-10-18.png) |
 | **19—27 · 场景与空间** | **28—36 · 概念与图形** |
 | [![电影海报版式 19 至 27 场景与空间](skills/vane-cinematic-poster/assets/poster-layouts-19-27.png)](skills/vane-cinematic-poster/assets/poster-layouts-19-27.png) | [![电影海报版式 28 至 36 概念与图形](skills/vane-cinematic-poster/assets/poster-layouts-28-36.png)](skills/vane-cinematic-poster/assets/poster-layouts-28-36.png) |
+
+**中文海报预览**
+
+| **01—09 · 人物主导** | **10—18 · 字体主导** |
+| :---: | :---: |
+| [![中文电影海报版式 01 至 09](skills/vane-cinematic-poster/assets/poster-layouts-zh-01-09.png)](skills/vane-cinematic-poster/assets/poster-layouts-zh-01-09.png) | [![中文电影海报版式 10 至 18](skills/vane-cinematic-poster/assets/poster-layouts-zh-10-18.png)](skills/vane-cinematic-poster/assets/poster-layouts-zh-10-18.png) |
+| **19—27 · 场景与空间** | **28—36 · 概念与图形** |
+| [![中文电影海报版式 19 至 27](skills/vane-cinematic-poster/assets/poster-layouts-zh-19-27.png)](skills/vane-cinematic-poster/assets/poster-layouts-zh-19-27.png) | [![中文电影海报版式 28 至 36](skills/vane-cinematic-poster/assets/poster-layouts-zh-28-36.png)](skills/vane-cinematic-poster/assets/poster-layouts-zh-28-36.png) |
 
 中英文预览分别设计，并非逐字翻译。图片为构图示例，其中的人物姓名、片方及荣誉文字不代表真实影片信息或授权背书。
 
