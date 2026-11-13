@@ -27,6 +27,7 @@ class InstallationTests(unittest.TestCase):
             self.assertTrue((target / "vane-cinematic-poster/SKILL.md").is_file())
             self.assertTrue((target / "vane-cinematic-poster/references/layouts.md").is_file())
             self.assertTrue((target / "vane-cinematic-poster/assets/poster-layouts-28-36.png").is_file())
+            self.assertTrue((target / "vane-cinematic-poster/assets/poster-layouts-zh-28-36.png").is_file())
             self.assertTrue((target / "vane-book-cinema/SKILL.md").is_file())
             self.assertEqual(len(list((target / "vane-book-cinema/assets").glob("books-*.jpg"))), 4)
             self.assertFalse((target / "vane-portrait-gif-stickers/.git").exists())
@@ -59,7 +60,7 @@ class InstallationTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr)
             skill = target / "vane-cinematic-poster"
             self.assertTrue((skill / "references/layouts.md").is_file())
-            self.assertEqual(len(list((skill / "assets").glob("poster-layouts-*.png"))), 4)
+            self.assertEqual(len(list((skill / "assets").glob("poster-layouts-*.png"))), 8)
             self.assertFalse((target / "vane-portrait-gif-stickers").exists())
 
     def test_install_book_cinema_alone(self):

@@ -7,7 +7,7 @@
 | Skill | 用途 | 调用名称 |
 | --- | --- | --- |
 | 照片转动态表情包 | 使用照片或角色制作多画风 GIF 表情包 | `$vane-portrait-gif-stickers` |
-| 电影级海报设计 | 选择 36 种构图，制作电影海报方案或图片 | `$vane-cinematic-poster` |
+| 电影级海报设计 | 选择 36 种构图，制作中文或英文电影海报方案或图片 | `$vane-cinematic-poster` |
 | 书页里的电影 | 根据书籍内容制作电影感海报 | `$vane-book-cinema` |
 
 ## 1. 获取合集
