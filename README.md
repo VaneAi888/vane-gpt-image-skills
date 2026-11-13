@@ -6,7 +6,7 @@
 
 这里收集可以直接上手的 AI 生图 Skill。每个玩法都有自己的效果展示和使用说明，从角色表情包开始，以后也会逐步收录封面、配图和其他创意玩法。
 
-> 目前已收录 **2 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
+> 目前已收录 **3 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
 
 ## 📚 Skill 合集
 
@@ -42,6 +42,22 @@
 
 👉 **[查看 36 种版式介绍与完整使用教程](docs/vane-cinematic-poster.md)**
 
+#### [书页里的电影](docs/vane-book-cinema.md)
+
+从书中的人物、故事或意象出发，把阅读时的想象变成电影感海报。小说和非虚构作品都可以尝试。
+
+**36 本书籍效果示例** · **4 组完整预览** · **默认竖版 2:3**
+
+| **01—09** | **10—18** |
+| :---: | :---: |
+| [![书页里的电影示例 01 至 09](skills/vane-book-cinema/assets/books-01-09.jpg)](skills/vane-book-cinema/assets/books-01-09.jpg) | [![书页里的电影示例 10 至 18](skills/vane-book-cinema/assets/books-10-18.jpg)](skills/vane-book-cinema/assets/books-10-18.jpg) |
+| **19—27** | **28—36** |
+| [![书页里的电影示例 19 至 27](skills/vane-book-cinema/assets/books-19-27.jpg)](skills/vane-book-cinema/assets/books-19-27.jpg) | [![书页里的电影示例 28 至 36](skills/vane-book-cinema/assets/books-28-36.jpg)](skills/vane-book-cinema/assets/books-28-36.jpg) |
+
+以上是书籍海报的创意展示，非官方改编或授权海报。
+
+👉 **[查看全部书籍示例与使用教程](docs/vane-book-cinema.md)**
+
 ## 🚀 开始使用
 
 先克隆合集，再选择安装单个或全部 Skill：
@@ -52,7 +68,7 @@ cd vane-gpt-image-skills
 python3 scripts/install_skills.py --all
 ```
 
-安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers` 或 `$vane-cinematic-poster` 调用。
+安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers`、`$vane-cinematic-poster` 或 `$vane-book-cinema` 调用。
 
 👉 **[统一安装教程](docs/installation.md)** · **[效果与安装测试记录](docs/testing.md)**
 

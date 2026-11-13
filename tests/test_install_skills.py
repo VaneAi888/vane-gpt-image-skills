@@ -16,7 +16,7 @@ class InstallationTests(unittest.TestCase):
             text=True,
         )
 
-    def test_install_both_and_required_assets(self):
+    def test_install_all_and_required_assets(self):
         with tempfile.TemporaryDirectory() as tmp:
             target = Path(tmp) / "skills"
             result = self.run_installer(target, "--all")
@@ -27,6 +27,8 @@ class InstallationTests(unittest.TestCase):
             self.assertTrue((target / "vane-cinematic-poster/SKILL.md").is_file())
             self.assertTrue((target / "vane-cinematic-poster/references/layouts.md").is_file())
             self.assertTrue((target / "vane-cinematic-poster/assets/poster-layouts-28-36.png").is_file())
+            self.assertTrue((target / "vane-book-cinema/SKILL.md").is_file())
+            self.assertEqual(len(list((target / "vane-book-cinema/assets").glob("books-*.jpg"))), 4)
             self.assertFalse((target / "vane-portrait-gif-stickers/.git").exists())
             self.assertFalse((target / "vane-portrait-gif-stickers/skills").exists())
 
@@ -40,6 +42,7 @@ class InstallationTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0)
             self.assertEqual((existing / "SKILL.md").read_text(encoding="utf-8"), "保留原内容")
             self.assertFalse((target / "vane-portrait-gif-stickers").exists())
+            self.assertFalse((target / "vane-book-cinema").exists())
 
     def test_install_stickers_alone(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -58,6 +61,16 @@ class InstallationTests(unittest.TestCase):
             self.assertTrue((skill / "references/layouts.md").is_file())
             self.assertEqual(len(list((skill / "assets").glob("poster-layouts-*.png"))), 4)
             self.assertFalse((target / "vane-portrait-gif-stickers").exists())
+
+    def test_install_book_cinema_alone(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "skills"
+            result = self.run_installer(target, "--skill", "vane-book-cinema")
+            self.assertEqual(result.returncode, 0, result.stderr)
+            skill = target / "vane-book-cinema"
+            self.assertTrue((skill / "agents/openai.yaml").is_file())
+            self.assertEqual(len(list((skill / "assets").glob("books-*.jpg"))), 4)
+            self.assertFalse((target / "vane-cinematic-poster").exists())
 
 
 if __name__ == "__main__":

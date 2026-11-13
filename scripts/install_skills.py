@@ -18,6 +18,11 @@ SKILLS = {
         "source": ROOT / "skills" / "vane-cinematic-poster",
         "items": ("SKILL.md", "agents", "references", "assets"),
     },
+    "vane-book-cinema": {
+        "description": "书页里的电影",
+        "source": ROOT / "skills" / "vane-book-cinema",
+        "items": ("SKILL.md", "agents", "assets"),
+    },
 }
 
 
