@@ -18,9 +18,15 @@
 
 **12 种画风** · **6 个主题** · **默认一套 16 张**
 
-**工作主题 · 16 格动态预览**
+**12 种画风 · 12 组动态演示**
 
-<a href="docs/portrait-gif-stickers.md"><img src="previews/01-work.gif" width="520" alt="工作主题动态表情包预览"></a>
+下面展示 4 种画风，每组包含 4 个动作小样。点击动图可放大查看。
+
+| **Q 版萌系** | **手绘涂鸦风** |
+| :---: | :---: |
+| [![Q 版萌系四动作动态演示](previews/style-01-chibi.gif)](previews/style-01-chibi.gif) | [![手绘涂鸦风四动作动态演示](previews/style-06-doodle.gif)](previews/style-06-doodle.gif) |
+| **毛绒布偶风** | **复古漫画风** |
+| [![毛绒布偶风四动作动态演示](previews/style-09-plush.gif)](previews/style-09-plush.gif) | [![复古漫画风四动作动态演示](previews/style-12-comic.gif)](previews/style-12-comic.gif) |
 
 👉 **[查看全部 12 种画风、6 个主题与使用教程](docs/portrait-gif-stickers.md)**
 
