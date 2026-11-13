@@ -2,12 +2,11 @@
 
 [← 返回 Skill 合集首页](../README.md)
 
-本合集目前有三个 Skill，可以任选一个，也可以一起安装。下面的命令适用于有 Python 3、Git 和 Codex 的 macOS / Linux 环境。
+本合集目前有两个 Skill，可以任选一个，也可以一起安装。下面的命令适用于有 Python 3、Git 和 Codex 的 macOS / Linux 环境。
 
 | Skill | 用途 | 调用名称 |
 | --- | --- | --- |
 | 照片转动态表情包 | 使用照片或角色制作多画风 GIF 表情包 | `$vane-portrait-gif-stickers` |
-| 紫色像素风 · X 文章视觉 | 制作 X 文章封面和正文配图 | `$vane-pixel-visuals` |
 | 电影级海报设计 | 选择 36 种构图，制作电影海报方案或图片 | `$vane-cinematic-poster` |
 
 ## 1. 获取合集
@@ -42,10 +41,6 @@ python3 scripts/install_skills.py --skill vane-portrait-gif-stickers
 ```
 
 ```bash
-python3 scripts/install_skills.py --skill vane-pixel-visuals
-```
-
-```bash
 python3 scripts/install_skills.py --skill vane-cinematic-poster
 ```
 
@@ -58,7 +53,6 @@ python3 scripts/install_skills.py --skill vane-cinematic-poster
 开始新的 Codex 对话，上传照片、角色图或文章内容，再输入对应的调用名称。建议先查看少量样稿，确认方向后再制作完整内容。
 
 - [动态表情包示例与使用教程](portrait-gif-stickers.md)
-- [紫色像素视觉示例与使用教程](vane-pixel-visuals.md)
 - [电影级海报示例与使用教程](vane-cinematic-poster.md)
 - [效果测试记录](testing.md)
 

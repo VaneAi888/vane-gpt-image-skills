@@ -13,11 +13,6 @@ SKILLS = {
         "source": ROOT,
         "items": ("SKILL.md", "agents", "references", "scripts"),
     },
-    "vane-pixel-visuals": {
-        "description": "紫色像素风 X 文章视觉",
-        "source": ROOT / "skills" / "vane-pixel-visuals",
-        "items": ("SKILL.md", "agents", "assets"),
-    },
     "vane-cinematic-poster": {
         "description": "电影级海报设计",
         "source": ROOT / "skills" / "vane-cinematic-poster",

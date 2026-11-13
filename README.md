@@ -6,7 +6,7 @@
 
 这里收集可以直接上手的 AI 生图 Skill。每个玩法都有自己的效果展示和使用说明，从角色表情包开始，以后也会逐步收录封面、配图和其他创意玩法。
 
-> 目前已收录 **3 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
+> 目前已收录 **2 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
 
 ## 📚 Skill 合集
 
@@ -23,22 +23,6 @@
 <a href="docs/portrait-gif-stickers.md"><img src="previews/01-work.gif" width="520" alt="工作主题动态表情包预览"></a>
 
 👉 **[查看全部 12 种画风、6 个主题与使用教程](docs/portrait-gif-stickers.md)**
-
-### 🖼️ 封面与社交媒体
-
-#### [紫色像素风 · X 文章视觉](docs/vane-pixel-visuals.md)
-
-用统一的紫色像素品牌风格，制作 X 文章封面与白底正文配图。可随文章主题设计插画、流程图和对比图。
-
-**5:2 文章封面** · **16:9 正文配图** · **3D 像素视觉**
-
-<a href="docs/vane-pixel-visuals.md"><img src="skills/vane-pixel-visuals/assets/cover-example.png" width="680" alt="紫色像素风 X 文章封面示例"></a>
-
-**正文配图 · Skill 用途**
-
-<a href="docs/vane-pixel-visuals.md"><img src="skills/vane-pixel-visuals/assets/article-white-functions.png" width="680" alt="白底紫色像素风 Skill 用途示例"></a>
-
-👉 **[查看封面、正文配图与完整使用教程](docs/vane-pixel-visuals.md)**
 
 ### 🎬 电影海报与视觉设计
 
@@ -68,7 +52,7 @@ cd vane-gpt-image-skills
 python3 scripts/install_skills.py --all
 ```
 
-安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers`、`$vane-pixel-visuals` 或 `$vane-cinematic-poster` 调用。
+安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers` 或 `$vane-cinematic-poster` 调用。
 
 👉 **[统一安装教程](docs/installation.md)** · **[效果与安装测试记录](docs/testing.md)**
 

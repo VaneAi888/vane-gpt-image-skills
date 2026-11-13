@@ -123,7 +123,6 @@
 
 - [Skill 指令](../SKILL.md)
 - [连续帧导出说明](../references/frame-manifest.md)
-- [紫色像素视觉 Skill](vane-pixel-visuals.md)
 
 ## 许可证
 
