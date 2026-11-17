@@ -23,6 +23,11 @@ SKILLS = {
         "source": ROOT / "skills" / "vane-book-cinema",
         "items": ("SKILL.md", "agents", "assets"),
     },
+    "wechat-red-packet-cover": {
+        "description": "微信红包封面制作",
+        "source": ROOT / "skills" / "wechat-red-packet-cover",
+        "items": ("SKILL.md", "README.md", "LICENSE", "references", "scripts", "assets"),
+    },
 }
 
 

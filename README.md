@@ -6,7 +6,7 @@
 
 这里收集可以直接上手的 AI 生图 Skill。每个玩法都有自己的效果展示和使用说明，从角色表情包开始，以后也会逐步收录封面、配图和其他创意玩法。
 
-> 目前已收录 **3 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
+> 目前已收录 **4 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
 
 ## 📚 Skill 合集
 
@@ -74,6 +74,24 @@
 
 👉 **[查看全部书籍示例与使用教程](docs/vane-book-cinema.md)**
 
+### 🧧 节日与生活创意
+
+#### [微信红包封面制作](docs/wechat-red-packet-cover.md)
+
+用文字或参考图设计专属微信红包封面，先确认原图，再查看模拟效果并导出上传图片。
+
+**36 种风格参考** · **4 组完整预览** · **单张封面设计**
+
+| **01—09 · 传统艺术** | **10—18 · 趣味角色** |
+| :---: | :---: |
+| [![红包封面风格 01 至 09 传统艺术](skills/wechat-red-packet-cover/assets/style-gallery/01-09-传统艺术.png)](skills/wechat-red-packet-cover/assets/style-gallery/01-09-传统艺术.png) | [![红包封面风格 10 至 18 趣味角色](skills/wechat-red-packet-cover/assets/style-gallery/10-18-趣味角色.png)](skills/wechat-red-packet-cover/assets/style-gallery/10-18-趣味角色.png) |
+| **19—27 · 现代设计** | **28—36 · 自然艺术** |
+| [![红包封面风格 19 至 27 现代设计](skills/wechat-red-packet-cover/assets/style-gallery/19-27-现代设计.png)](skills/wechat-red-packet-cover/assets/style-gallery/19-27-现代设计.png) | [![红包封面风格 28 至 36 自然艺术](skills/wechat-red-packet-cover/assets/style-gallery/28-36-自然艺术.png)](skills/wechat-red-packet-cover/assets/style-gallery/28-36-自然艺术.png) |
+
+这些是风格模拟预览，不是可直接上传的封面原图，也不是微信官方模板。
+
+👉 **[查看 36 种风格与完整使用教程](docs/wechat-red-packet-cover.md)**
+
 ## 🚀 开始使用
 
 先克隆合集，再选择安装单个或全部 Skill：
@@ -84,7 +102,7 @@ cd vane-gpt-image-skills
 python3 scripts/install_skills.py --all
 ```
 
-安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers`、`$vane-cinematic-poster` 或 `$vane-book-cinema` 调用。
+安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers`、`$vane-cinematic-poster`、`$vane-book-cinema` 或 `$wechat-red-packet-cover` 调用。
 
 👉 **[统一安装教程](docs/installation.md)** · **[效果与安装测试记录](docs/testing.md)**
 

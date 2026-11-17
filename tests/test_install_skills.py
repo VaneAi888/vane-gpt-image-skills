@@ -30,6 +30,12 @@ class InstallationTests(unittest.TestCase):
             self.assertTrue((target / "vane-cinematic-poster/assets/poster-layouts-zh-28-36.png").is_file())
             self.assertTrue((target / "vane-book-cinema/SKILL.md").is_file())
             self.assertEqual(len(list((target / "vane-book-cinema/assets").glob("books-*.jpg"))), 4)
+            red_packet = target / "wechat-red-packet-cover"
+            self.assertTrue((red_packet / "SKILL.md").is_file())
+            self.assertTrue((red_packet / "scripts/cover_tool.py").is_file())
+            self.assertTrue((red_packet / "references/styles.md").is_file())
+            self.assertTrue((red_packet / "LICENSE").is_file())
+            self.assertEqual(len(list((red_packet / "assets/style-gallery").glob("*.png"))), 4)
             self.assertFalse((target / "vane-portrait-gif-stickers/.git").exists())
             self.assertFalse((target / "vane-portrait-gif-stickers/skills").exists())
 
@@ -44,6 +50,7 @@ class InstallationTests(unittest.TestCase):
             self.assertEqual((existing / "SKILL.md").read_text(encoding="utf-8"), "保留原内容")
             self.assertFalse((target / "vane-portrait-gif-stickers").exists())
             self.assertFalse((target / "vane-book-cinema").exists())
+            self.assertFalse((target / "wechat-red-packet-cover").exists())
 
     def test_install_stickers_alone(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -71,6 +78,16 @@ class InstallationTests(unittest.TestCase):
             skill = target / "vane-book-cinema"
             self.assertTrue((skill / "agents/openai.yaml").is_file())
             self.assertEqual(len(list((skill / "assets").glob("books-*.jpg"))), 4)
+            self.assertFalse((target / "vane-cinematic-poster").exists())
+
+    def test_install_red_packet_alone(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "skills"
+            result = self.run_installer(target, "--skill", "wechat-red-packet-cover")
+            self.assertEqual(result.returncode, 0, result.stderr)
+            skill = target / "wechat-red-packet-cover"
+            self.assertTrue((skill / "scripts/cover_tool.py").is_file())
+            self.assertEqual(len(list((skill / "assets/style-gallery").glob("*.png"))), 4)
             self.assertFalse((target / "vane-cinematic-poster").exists())
 
 
