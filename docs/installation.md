@@ -23,6 +23,8 @@ cd vane-gpt-image-skills
 
 如果当前目录已经有 `vane-gpt-image-skills` 文件夹，请进入现有仓库并在确认本地更改后更新；也可以在另一个目录重新克隆。
 
+**以前安装过？** 请查看[统一更新教程](updating.md)，了解如何安装新增的 Skill、备份并更新旧版。
+
 ## 2. 选择要安装的 Skill
 
 先查看可选项：
@@ -73,5 +75,6 @@ python3 scripts/install_skills.py --skill vane-pet-new-year-portrait
 - [微信红包封面示例与使用教程](wechat-red-packet-cover.md)
 - [宠物新年写真示例与使用教程](vane-pet-new-year-portrait.md)
 - [效果测试记录](testing.md)
+- [统一更新教程](updating.md)
 
 使用时需要支持读取参考图和图像生成的环境。动态 GIF 的制作可能还需要 Pillow、FFmpeg 或其他可用工具；实际能力、文字准确性和动作流畅度请以当前环境及生成结果为准。

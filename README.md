@@ -28,6 +28,8 @@ python3 scripts/install_skills.py --all
 
 如果只想安装其中一个，或已有同名 Skill，请查看[统一安装教程](docs/installation.md)。安装完成后开启新的 Codex 对话，再使用对应的 `$Skill` 名称。
 
+🔄 **已经安装过？** [查看一键更新教程](docs/updating.md)：以后只需运行一次更新脚本，也可以直接让 Codex 帮你更新。
+
 使用前请确认环境支持读取参考图和图像生成；GIF 动作、图片文字和透明背景的效果取决于实际素材与可用工具。也可以查看[效果与安装测试记录](docs/testing.md)。
 
 ---
