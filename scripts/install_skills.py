@@ -28,6 +28,11 @@ SKILLS = {
         "source": ROOT / "skills" / "wechat-red-packet-cover",
         "items": ("SKILL.md", "README.md", "LICENSE", "references", "scripts", "assets"),
     },
+    "vane-pet-new-year-portrait": {
+        "description": "宠物新年写真",
+        "source": ROOT / "skills" / "vane-pet-new-year-portrait",
+        "items": ("SKILL.md", "scripts", "evals", "assets"),
+    },
 }
 
 

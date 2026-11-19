@@ -36,6 +36,11 @@ class InstallationTests(unittest.TestCase):
             self.assertTrue((red_packet / "references/styles.md").is_file())
             self.assertTrue((red_packet / "LICENSE").is_file())
             self.assertEqual(len(list((red_packet / "assets/style-gallery").glob("*.png"))), 4)
+            pet = target / "vane-pet-new-year-portrait"
+            self.assertTrue((pet / "SKILL.md").is_file())
+            self.assertTrue((pet / "scripts/fit_white_canvas.py").is_file())
+            self.assertTrue((pet / "evals/evals.json").is_file())
+            self.assertEqual(len(list((pet / "assets").glob("*.png"))), 4)
             self.assertFalse((target / "vane-portrait-gif-stickers/.git").exists())
             self.assertFalse((target / "vane-portrait-gif-stickers/skills").exists())
 
@@ -51,6 +56,7 @@ class InstallationTests(unittest.TestCase):
             self.assertFalse((target / "vane-portrait-gif-stickers").exists())
             self.assertFalse((target / "vane-book-cinema").exists())
             self.assertFalse((target / "wechat-red-packet-cover").exists())
+            self.assertFalse((target / "vane-pet-new-year-portrait").exists())
 
     def test_install_stickers_alone(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -88,6 +94,16 @@ class InstallationTests(unittest.TestCase):
             skill = target / "wechat-red-packet-cover"
             self.assertTrue((skill / "scripts/cover_tool.py").is_file())
             self.assertEqual(len(list((skill / "assets/style-gallery").glob("*.png"))), 4)
+            self.assertFalse((target / "vane-cinematic-poster").exists())
+
+    def test_install_pet_portrait_alone(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "skills"
+            result = self.run_installer(target, "--skill", "vane-pet-new-year-portrait")
+            self.assertEqual(result.returncode, 0, result.stderr)
+            skill = target / "vane-pet-new-year-portrait"
+            self.assertTrue((skill / "scripts/fit_white_canvas.py").is_file())
+            self.assertEqual(len(list((skill / "assets").glob("*.png"))), 4)
             self.assertFalse((target / "vane-cinematic-poster").exists())
 
 

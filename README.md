@@ -6,7 +6,7 @@
 
 这里收集可以直接上手的 AI 生图 Skill。每个玩法都有自己的效果展示和使用说明，从角色表情包开始，以后也会逐步收录封面、配图和其他创意玩法。
 
-> 目前已收录 **4 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
+> 目前已收录 **5 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
 
 ## 📚 Skill 合集
 
@@ -92,6 +92,22 @@
 
 👉 **[查看 36 种风格与完整使用教程](docs/wechat-red-packet-cover.md)**
 
+#### [宠物新年写真](docs/vane-pet-new-year-portrait.md)
+
+上传宠物照片，制作风格统一、姿势多样的新年写真。可以先看九宫格预览，再逐张生成独立照片。
+
+**默认 9 张独立写真** · **3 种影棚背景参考** · **可先看九宫格**
+
+| **多样姿势 · 羊年棚拍** | **中国红影棚** |
+| :---: | :---: |
+| [![宠物新年写真多样姿势预览](skills/vane-pet-new-year-portrait/assets/01-varied-poses.png)](skills/vane-pet-new-year-portrait/assets/01-varied-poses.png) | [![宠物新年写真中国红影棚预览](skills/vane-pet-new-year-portrait/assets/02-red-studio.png)](skills/vane-pet-new-year-portrait/assets/02-red-studio.png) |
+| **黑金影棚** | **纯白影棚** |
+| [![宠物新年写真黑金影棚预览](skills/vane-pet-new-year-portrait/assets/03-black-gold-studio.png)](skills/vane-pet-new-year-portrait/assets/03-black-gold-studio.png) | [![宠物新年写真纯白影棚预览](skills/vane-pet-new-year-portrait/assets/04-white-studio.png)](skills/vane-pet-new-year-portrait/assets/04-white-studio.png) |
+
+图中为九宫格预览，独立写真需逐张生成；羊年元素是展示示例，也可指定其他生肖或主题。
+
+👉 **[查看预览与完整使用教程](docs/vane-pet-new-year-portrait.md)**
+
 ## 🚀 开始使用
 
 先克隆合集，再选择安装单个或全部 Skill：
@@ -102,7 +118,7 @@ cd vane-gpt-image-skills
 python3 scripts/install_skills.py --all
 ```
 
-安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers`、`$vane-cinematic-poster`、`$vane-book-cinema` 或 `$wechat-red-packet-cover` 调用。
+安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers`、`$vane-cinematic-poster`、`$vane-book-cinema`、`$wechat-red-packet-cover` 或 `$vane-pet-new-year-portrait` 调用。
 
 👉 **[统一安装教程](docs/installation.md)** · **[效果与安装测试记录](docs/testing.md)**
 
