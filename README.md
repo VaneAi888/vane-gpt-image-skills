@@ -6,9 +6,33 @@
 
 这里收集可以直接上手的 AI 生图 Skill。每个玩法都有自己的效果展示和使用说明，从角色表情包开始，以后也会逐步收录封面、配图和其他创意玩法。
 
-> 目前已收录 **5 个 Skill**。选择感兴趣的玩法，先看效果，再跟着教程开始制作。
+## 📚 5 个 Skill 一览
 
-## 📚 Skill 合集
+| Skill | 能做什么 | 入口 |
+| --- | --- | --- |
+| 🎭 [照片转动态表情包](#照片转动态表情包) | 照片变成会动的专属表情包 | [查看效果与教程](docs/portrait-gif-stickers.md) |
+| 🎬 [电影级海报设计](#电影级海报设计) | 用 36 种构图制作电影海报 | [查看效果与教程](docs/vane-cinematic-poster.md) |
+| 📚 [书页里的电影](#书页里的电影) | 把书中的故事变成海报 | [查看效果与教程](docs/vane-book-cinema.md) |
+| 🧧 [微信红包封面制作](#微信红包封面制作) | 设计自己的微信红包封面 | [查看效果与教程](docs/wechat-red-packet-cover.md) |
+| 🐾 [宠物新年写真](#宠物新年写真) | 为宠物制作一套新年写真 | [查看效果与教程](docs/vane-pet-new-year-portrait.md) |
+
+## 🚀 开始使用
+
+先克隆合集，再安装全部 Skill：
+
+```bash
+git clone https://github.com/VaneAi888/vane-gpt-image-skills.git
+cd vane-gpt-image-skills
+python3 scripts/install_skills.py --all
+```
+
+如果只想安装其中一个，或已有同名 Skill，请查看[统一安装教程](docs/installation.md)。安装完成后开启新的 Codex 对话，再使用对应的 `$Skill` 名称。
+
+使用前请确认环境支持读取参考图和图像生成；GIF 动作、图片文字和透明背景的效果取决于实际素材与可用工具。也可以查看[效果与安装测试记录](docs/testing.md)。
+
+---
+
+## 🖼️ 效果展示
 
 ### 🎭 角色与表情包
 
@@ -107,22 +131,6 @@
 图中为九宫格预览，独立写真需逐张生成；羊年元素是展示示例，也可指定其他生肖或主题。
 
 👉 **[查看预览与完整使用教程](docs/vane-pet-new-year-portrait.md)**
-
-## 🚀 开始使用
-
-先克隆合集，再选择安装单个或全部 Skill：
-
-```bash
-git clone https://github.com/VaneAi888/vane-gpt-image-skills.git
-cd vane-gpt-image-skills
-python3 scripts/install_skills.py --all
-```
-
-安装器不会覆盖已存在的同名 Skill。如果只想安装其中一个，请查看统一安装教程。安装完成后开启新的 Codex 对话，用 `$vane-portrait-gif-stickers`、`$vane-cinematic-poster`、`$vane-book-cinema`、`$wechat-red-packet-cover` 或 `$vane-pet-new-year-portrait` 调用。
-
-👉 **[统一安装教程](docs/installation.md)** · **[效果与安装测试记录](docs/testing.md)**
-
-使用前请确认环境支持读取参考图和图像生成；GIF 动作、图片文字和透明背景的效果取决于实际素材与可用工具。
 
 ## ✨ 持续更新
 
