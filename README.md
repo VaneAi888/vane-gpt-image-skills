@@ -15,7 +15,7 @@
 | 📚 [书页里的电影](#书页里的电影) | 把书中的故事变成海报 | [查看效果与教程](docs/vane-book-cinema.md) |
 | 🧧 [微信红包封面制作](#微信红包封面制作) | 设计自己的微信红包封面 | [查看效果与教程](docs/wechat-red-packet-cover.md) |
 | 🐾 [宠物新年写真](#宠物新年写真) | 为宠物制作一套新年写真 | [查看效果与教程](docs/vane-pet-new-year-portrait.md) |
-| 📕 [Vane 小红书图文设计](#vane-小红书图文设计) | 选择风格，制作小红书封面和正文图 | [查看效果与教程](docs/vane-xhs-design.md) |
+| 📕 [小红书图文设计](#小红书图文设计) | 选择风格，制作小红书封面和正文图 | [查看效果与教程](docs/vane-xhs-design.md) |
 
 ## 🚀 开始使用
 
@@ -137,19 +137,20 @@ python3 scripts/install_skills.py --all
 
 ### 📕 小红书图文
 
-#### [Vane 小红书图文设计](docs/vane-xhs-design.md)
+#### [小红书图文设计](docs/vane-xhs-design.md)
 
 把文字和图片制作成小红书封面与正文图，选择喜欢的视觉风格，先预览再逐张生成。
 
 **已收录 1 种风格** · **封面与正文图** · **更多风格持续更新**
 
-**手帐拼贴风** · 纸张、照片与便签拼贴，适合生活记录、兴趣分享和轻量干货。
+<table>
+  <tr>
+    <td width="50%" align="center"><strong>手帐拼贴风</strong><br><a href="previews/xhs-scrapbook/overview-grid.png"><img src="previews/xhs-scrapbook/overview-grid.png" alt="手帐拼贴风九宫格整体预览"></a></td>
+    <td width="50%"></td>
+  </tr>
+</table>
 
-| **封面** | **正文 · 养护计划** |
-| :---: | :---: |
-| [![手帐拼贴风封面示例](previews/xhs-scrapbook/page-01.png)](previews/xhs-scrapbook/page-01.png) | [![手帐拼贴风正文养护计划示例](previews/xhs-scrapbook/page-02.png)](previews/xhs-scrapbook/page-02.png) |
-| **正文 · 叶片与土壤** | **正文 · 植物拼贴** |
-| [![手帐拼贴风正文叶片与土壤示例](previews/xhs-scrapbook/page-03.png)](previews/xhs-scrapbook/page-03.png) | [![手帐拼贴风正文植物拼贴示例](previews/xhs-scrapbook/page-04.png)](previews/xhs-scrapbook/page-04.png) |
+手帐拼贴风以纸张、照片和便签拼贴，适合生活记录、兴趣分享和轻量干货。
 
 👉 **[查看九页完整效果与使用教程](docs/vane-xhs-design.md)**
 
