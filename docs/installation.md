@@ -2,7 +2,7 @@
 
 [← 返回 Skill 合集首页](../README.md)
 
-本合集目前有五个 Skill，可以任选一个，也可以一起安装。下面的命令适用于有 Python 3、Git 和 Codex 的 macOS / Linux 环境。
+本合集目前有六个 Skill，可以任选一个，也可以一起安装。下面的命令适用于有 Python 3、Git 和 Codex 的 macOS / Linux 环境。
 
 | Skill | 用途 | 调用名称 |
 | --- | --- | --- |
@@ -11,6 +11,7 @@
 | 书页里的电影 | 根据书籍内容制作电影感海报 | `$vane-book-cinema` |
 | 微信红包封面制作 | 设计红包封面、查看模拟效果并导出 | `$wechat-red-packet-cover` |
 | 宠物新年写真 | 根据宠物照片制作新年写真，可先查看九宫格预览 | `$vane-pet-new-year-portrait` |
+| Vane 小红书图文设计 | 按可选风格制作小红书封面与正文图 | `$vane-xhs-design` |
 
 ## 1. 获取合集
 
@@ -61,6 +62,10 @@ python3 scripts/install_skills.py --skill wechat-red-packet-cover
 python3 scripts/install_skills.py --skill vane-pet-new-year-portrait
 ```
 
+```bash
+python3 scripts/install_skills.py --skill vane-xhs-design
+```
+
 默认安装到 `~/.codex/skills/`。安装器会复制每个 Skill 需要的指令和参考素材，不会自动安装 Pillow 或 FFmpeg 等依赖。
 
 **已有同名 Skill 时，安装器会停止，不会覆盖原文件。** 如果只想新增另一个 Skill，请使用对应的单独安装命令；如果需要替换已有版本，请先备份并移走原目录，再运行安装命令。`--all` 会在开始复制前检查全部目标，任意一个已存在时不会安装其他 Skill。
@@ -74,6 +79,7 @@ python3 scripts/install_skills.py --skill vane-pet-new-year-portrait
 - [书页里的电影示例与使用教程](vane-book-cinema.md)
 - [微信红包封面示例与使用教程](wechat-red-packet-cover.md)
 - [宠物新年写真示例与使用教程](vane-pet-new-year-portrait.md)
+- [小红书图文设计示例与使用教程](vane-xhs-design.md)
 - [效果测试记录](testing.md)
 - [统一更新教程](updating.md)
 

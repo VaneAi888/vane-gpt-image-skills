@@ -6,7 +6,7 @@
 
 这里收集可以直接上手的 AI 生图 Skill。每个玩法都有自己的效果展示和使用说明，从角色表情包开始，以后也会逐步收录封面、配图和其他创意玩法。
 
-## 📚 5 个 Skill 一览
+## 📚 6 个 Skill 一览
 
 | Skill | 能做什么 | 入口 |
 | --- | --- | --- |
@@ -15,6 +15,7 @@
 | 📚 [书页里的电影](#书页里的电影) | 把书中的故事变成海报 | [查看效果与教程](docs/vane-book-cinema.md) |
 | 🧧 [微信红包封面制作](#微信红包封面制作) | 设计自己的微信红包封面 | [查看效果与教程](docs/wechat-red-packet-cover.md) |
 | 🐾 [宠物新年写真](#宠物新年写真) | 为宠物制作一套新年写真 | [查看效果与教程](docs/vane-pet-new-year-portrait.md) |
+| 📕 [Vane 小红书图文设计](#vane-小红书图文设计) | 选择风格，制作小红书封面和正文图 | [查看效果与教程](docs/vane-xhs-design.md) |
 
 ## 🚀 开始使用
 
@@ -133,6 +134,24 @@ python3 scripts/install_skills.py --all
 图中为九宫格预览，独立写真需逐张生成；羊年元素是展示示例，也可指定其他生肖或主题。
 
 👉 **[查看预览与完整使用教程](docs/vane-pet-new-year-portrait.md)**
+
+### 📕 小红书图文
+
+#### [Vane 小红书图文设计](docs/vane-xhs-design.md)
+
+把文字和图片制作成小红书封面与正文图，选择喜欢的视觉风格，先预览再逐张生成。
+
+**已收录 1 种风格** · **封面与正文图** · **更多风格持续更新**
+
+**手帐拼贴风** · 纸张、照片与便签拼贴，适合生活记录、兴趣分享和轻量干货。
+
+| **封面** | **正文 · 养护计划** |
+| :---: | :---: |
+| [![手帐拼贴风封面示例](previews/xhs-scrapbook/page-01.png)](previews/xhs-scrapbook/page-01.png) | [![手帐拼贴风正文养护计划示例](previews/xhs-scrapbook/page-02.png)](previews/xhs-scrapbook/page-02.png) |
+| **正文 · 叶片与土壤** | **正文 · 植物拼贴** |
+| [![手帐拼贴风正文叶片与土壤示例](previews/xhs-scrapbook/page-03.png)](previews/xhs-scrapbook/page-03.png) | [![手帐拼贴风正文植物拼贴示例](previews/xhs-scrapbook/page-04.png)](previews/xhs-scrapbook/page-04.png) |
+
+👉 **[查看九页完整效果与使用教程](docs/vane-xhs-design.md)**
 
 ## ✨ 持续更新
 

@@ -41,6 +41,11 @@ class InstallationTests(unittest.TestCase):
             self.assertTrue((pet / "scripts/fit_white_canvas.py").is_file())
             self.assertTrue((pet / "evals/evals.json").is_file())
             self.assertEqual(len(list((pet / "assets").glob("*.png"))), 4)
+            xhs = target / "vane-xhs-design"
+            self.assertTrue((xhs / "SKILL.md").is_file())
+            self.assertTrue((xhs / "styles/scrapbook/STYLE.md").is_file())
+            self.assertTrue((xhs / "styles/scrapbook/references/content-and-layout.md").is_file())
+            self.assertTrue((xhs / "styles/scrapbook/assets/approved-plant-reference.png").is_file())
             self.assertFalse((target / "vane-portrait-gif-stickers/.git").exists())
             self.assertFalse((target / "vane-portrait-gif-stickers/skills").exists())
 
@@ -57,6 +62,7 @@ class InstallationTests(unittest.TestCase):
             self.assertFalse((target / "vane-book-cinema").exists())
             self.assertFalse((target / "wechat-red-packet-cover").exists())
             self.assertFalse((target / "vane-pet-new-year-portrait").exists())
+            self.assertFalse((target / "vane-xhs-design").exists())
 
     def test_install_stickers_alone(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -104,6 +110,16 @@ class InstallationTests(unittest.TestCase):
             skill = target / "vane-pet-new-year-portrait"
             self.assertTrue((skill / "scripts/fit_white_canvas.py").is_file())
             self.assertEqual(len(list((skill / "assets").glob("*.png"))), 4)
+            self.assertFalse((target / "vane-cinematic-poster").exists())
+
+    def test_install_xhs_design_alone(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "skills"
+            result = self.run_installer(target, "--skill", "vane-xhs-design")
+            self.assertEqual(result.returncode, 0, result.stderr)
+            skill = target / "vane-xhs-design"
+            self.assertTrue((skill / "styles/scrapbook/STYLE.md").is_file())
+            self.assertTrue((skill / "styles/scrapbook/assets/layout-skeleton.png").is_file())
             self.assertFalse((target / "vane-cinematic-poster").exists())
 
 

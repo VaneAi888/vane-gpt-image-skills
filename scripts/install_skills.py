@@ -33,6 +33,11 @@ SKILLS = {
         "source": ROOT / "skills" / "vane-pet-new-year-portrait",
         "items": ("SKILL.md", "scripts", "evals", "assets"),
     },
+    "vane-xhs-design": {
+        "description": "Vane 小红书图文设计",
+        "source": ROOT / "skills" / "vane-xhs-design",
+        "items": ("SKILL.md", "styles"),
+    },
 }
 
 
