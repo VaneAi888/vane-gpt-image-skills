@@ -88,6 +88,18 @@ class UpdateTests(unittest.TestCase):
         backups = list((destination.parent / "vane-gpt-image-skills-backups").glob("*/alpha/SKILL.md"))
         self.assertEqual(backups[0].read_text(), "custom skill")
 
+    def test_new_style_updates_existing_skill_and_keeps_backup(self):
+        destination = self.root / "home" / "skills"
+        cmd = [sys.executable, str(self.repo / "scripts/update_skills.py"), "--local", "--destination", str(destination)]
+        run(*cmd)
+        new_style = self.repo / "skills/alpha/assets/new-style.txt"
+        new_style.write_text("new style", encoding="utf-8")
+        run(*cmd)
+        self.assertEqual((destination / "alpha/assets/new-style.txt").read_text(), "new style")
+        backups = list((destination.parent / "vane-gpt-image-skills-backups").glob("*/alpha/SKILL.md"))
+        self.assertEqual(len(backups), 1)
+        self.assertEqual(backups[0].read_text(), "alpha version one\n")
+
     def test_one_command_pulls_and_uses_new_skill_catalog(self):
         remote = self.root / "remote.git"
         run("git", "clone", "--bare", str(self.repo), str(remote))

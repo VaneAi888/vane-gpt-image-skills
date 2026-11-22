@@ -2,15 +2,16 @@
 
 [← 返回 Skill 合集首页](../README.md)
 
-把文字和图片制作成小红书封面与正文图，按内容选择合适的视觉风格。一个 Skill 持续收录不同风格，目前已收录 **手帐拼贴风**。
+把文字和图片制作成小红书封面与正文图，按内容选择合适的视觉风格。一个 Skill 持续收录不同风格，目前已收录 **手帐拼贴风、极简产品风**。
 
-**已收录 1 种风格** · **封面与正文图** · **更多风格持续更新**
+**已收录 2 种风格** · **封面与正文图** · **更多风格持续更新**
 
 ## 🎨 选择风格
 
 | 风格 | 适合内容 | 效果展示 |
 | --- | --- | --- |
 | 手帐拼贴风 | 生活记录、兴趣分享、旅行、探店、好物和轻量干货 | [查看九页效果](#手帐拼贴风) |
+| 极简产品风 | 产品、AI 工具、食品、家居、生活方式和简短观点 | [查看九页效果](#极简产品风) |
 
 ## 手帐拼贴风
 
@@ -46,19 +47,54 @@
 
 也可以提供照片、截图或产品图，并说明它们在图文中的用途。Skill 会先规划内容与九宫格预览；确认预览和逐页文案后，再逐张生成独立图片。
 
+## 极简产品风
+
+以白底、留白和统一主体为特点，通过主体的大小、位置和裁切变化，让产品或观点成为视觉重点。默认设计 **封面、7 张内页和结尾，共 9 页**。
+
+### 🖼️ 完整效果展示
+
+以下是同一主题的九页示例。点击图片可查看原图；首页展示九宫格整体预览。
+
+| **01 · 认识 Grok Bot** | **02 · 把想法交给它** |
+| :---: | :---: |
+| [![极简产品风认识 Grok Bot](../previews/xhs-minimal-product/page-01.png)](../previews/xhs-minimal-product/page-01.png) | [![极简产品风把想法交给它](../previews/xhs-minimal-product/page-02.png)](../previews/xhs-minimal-product/page-02.png) |
+| **03 · 给任务方向** | **04 · 说清目标** |
+| [![极简产品风给任务方向](../previews/xhs-minimal-product/page-03.png)](../previews/xhs-minimal-product/page-03.png) | [![极简产品风说清目标](../previews/xhs-minimal-product/page-04.png)](../previews/xhs-minimal-product/page-04.png) |
+| **05 · 补充背景** | **06 · 看结果再调整** |
+| [![极简产品风补充背景](../previews/xhs-minimal-product/page-05.png)](../previews/xhs-minimal-product/page-05.png) | [![极简产品风看结果再调整](../previews/xhs-minimal-product/page-06.png)](../previews/xhs-minimal-product/page-06.png) |
+| **07 · 一步步协作** | **08 · 一起整理想法** |
+| [![极简产品风一步步协作](../previews/xhs-minimal-product/page-07.png)](../previews/xhs-minimal-product/page-07.png) | [![极简产品风一起整理想法](../previews/xhs-minimal-product/page-08.png)](../previews/xhs-minimal-product/page-08.png) |
+
+**09 · 从小任务开始**
+
+<a href="../previews/xhs-minimal-product/page-09.png"><img src="../previews/xhs-minimal-product/page-09.png" width="500" alt="极简产品风从小任务开始"></a>
+
+[查看九宫格整体预览](../previews/xhs-minimal-product/overview-grid.png)
+
+图中为图文设计示例，不代表相关产品的官方素材、合作或授权。九宫格用于预览，不等同于九张高清成品。
+
+### 🚀 如何使用
+
+安装 `vane-xhs-design` 后，提供文字并选择使用自己的图片或 AI 示意配图。例如：
+
+> 使用 $vane-xhs-design 的极简产品风，把下面的文字做成九页小红书图文。我选择文字加 AI 配图，请先给我看九宫格预览和每页文案：……
+
+也可以提供自己的产品照片或截图。确认九宫格预览和逐页文案后，再逐张生成独立图片。
+
 ## 🛠️ 使用说明
 
 - 需要支持读取参考图的图像生成或编辑工具；用户图片会按实际用途作为参考。
-- 手帐拼贴风默认 9 页、每页竖版 3:4。生成效果、中文文字和实际尺寸需逐页核对。
+- 两种风格默认 9 页、每页竖版 3:4。生成效果、中文文字和实际尺寸需逐页核对。
 - AI 配图是示意，不应冒充真实店铺、产品或个人经历。Skill 不会自动发布到小红书。
 - 后续新风格会加入同一个 Skill，已安装用户可按[统一更新教程](updating.md)获取。
 
 ## 🔍 效果测试与使用边界
 
-本次收录检查了九页样例、九宫格预览与安装文件，具体情况见[效果测试记录](testing.md)。本次没有重新生成完整图文，实际生成结果依赖所用工具和素材。
+两种风格的九页样例、九宫格预览与安装文件检查情况见[效果测试记录](testing.md)。本次没有重新生成完整图文，实际生成结果依赖所用工具和素材。
 
 ## 📂 Skill 文件
 
 - [Skill 入口](../skills/vane-xhs-design/SKILL.md)
 - [手帐拼贴风制作指南](../skills/vane-xhs-design/styles/scrapbook/STYLE.md)
+- [极简产品风制作指南](../skills/vane-xhs-design/styles/minimal-product/STYLE.md)
 - [统一安装入口](installation.md)

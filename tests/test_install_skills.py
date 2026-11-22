@@ -46,6 +46,9 @@ class InstallationTests(unittest.TestCase):
             self.assertTrue((xhs / "styles/scrapbook/STYLE.md").is_file())
             self.assertTrue((xhs / "styles/scrapbook/references/content-and-layout.md").is_file())
             self.assertTrue((xhs / "styles/scrapbook/assets/approved-plant-reference.png").is_file())
+            self.assertTrue((xhs / "styles/minimal-product/STYLE.md").is_file())
+            self.assertTrue((xhs / "styles/minimal-product/references/layout-and-content.md").is_file())
+            self.assertTrue((xhs / "styles/minimal-product/assets/strawberry-style-reference.png").is_file())
             self.assertFalse((target / "vane-portrait-gif-stickers/.git").exists())
             self.assertFalse((target / "vane-portrait-gif-stickers/skills").exists())
 
@@ -120,6 +123,8 @@ class InstallationTests(unittest.TestCase):
             skill = target / "vane-xhs-design"
             self.assertTrue((skill / "styles/scrapbook/STYLE.md").is_file())
             self.assertTrue((skill / "styles/scrapbook/assets/layout-skeleton.png").is_file())
+            self.assertTrue((skill / "styles/minimal-product/STYLE.md").is_file())
+            self.assertTrue((skill / "styles/minimal-product/assets/nine-page-layout.png").is_file())
             self.assertFalse((target / "vane-cinematic-poster").exists())
 
 
