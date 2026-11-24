@@ -49,6 +49,9 @@ class InstallationTests(unittest.TestCase):
             self.assertTrue((xhs / "styles/minimal-product/STYLE.md").is_file())
             self.assertTrue((xhs / "styles/minimal-product/references/layout-and-content.md").is_file())
             self.assertTrue((xhs / "styles/minimal-product/assets/strawberry-style-reference.png").is_file())
+            self.assertTrue((xhs / "styles/bold-color/STYLE.md").is_file())
+            self.assertTrue((xhs / "styles/bold-color/references/layout-and-content.md").is_file())
+            self.assertTrue((xhs / "styles/bold-color/assets/approved-color-reference.png").is_file())
             self.assertFalse((target / "vane-portrait-gif-stickers/.git").exists())
             self.assertFalse((target / "vane-portrait-gif-stickers/skills").exists())
 
@@ -125,6 +128,8 @@ class InstallationTests(unittest.TestCase):
             self.assertTrue((skill / "styles/scrapbook/assets/layout-skeleton.png").is_file())
             self.assertTrue((skill / "styles/minimal-product/STYLE.md").is_file())
             self.assertTrue((skill / "styles/minimal-product/assets/nine-page-layout.png").is_file())
+            self.assertTrue((skill / "styles/bold-color/STYLE.md").is_file())
+            self.assertTrue((skill / "styles/bold-color/assets/nine-page-layout.png").is_file())
             self.assertFalse((target / "vane-cinematic-poster").exists())
 
 

@@ -141,16 +141,20 @@ python3 scripts/install_skills.py --all
 
 把文字和图片制作成小红书封面与正文图，选择喜欢的视觉风格，先预览再逐张生成。
 
-**已收录 2 种风格** · **封面与正文图** · **更多风格持续更新**
+**已收录 3 种风格** · **封面与正文图** · **更多风格持续更新**
 
 <table>
   <tr>
     <td width="50%" align="center"><strong>手帐拼贴风</strong><br><a href="previews/xhs-scrapbook/overview-grid.png"><img src="previews/xhs-scrapbook/overview-grid.png" alt="手帐拼贴风九宫格整体预览"></a></td>
     <td width="50%" align="center"><strong>极简产品风</strong><br><a href="previews/xhs-minimal-product/overview-grid.png"><img src="previews/xhs-minimal-product/overview-grid.png" alt="极简产品风九宫格整体预览"></a></td>
   </tr>
+  <tr>
+    <td width="50%" align="center"><strong>撞色大字风</strong><br><a href="skills/vane-xhs-design/styles/bold-color/assets/approved-color-reference.png"><img src="skills/vane-xhs-design/styles/bold-color/assets/approved-color-reference.png" alt="撞色大字风九宫格整体预览"></a></td>
+    <td width="50%"></td>
+  </tr>
 </table>
 
-手帐拼贴风适合生活记录和兴趣分享；极简产品风以白底、留白和统一主体呈现，适合产品、AI 工具和生活方式内容。
+手帐拼贴风适合生活记录和兴趣分享；极简产品风适合产品、AI 工具和生活方式内容；撞色大字风适合创作灵感、活动与潮流内容。
 
 👉 **[查看九页完整效果与使用教程](docs/vane-xhs-design.md)**
 
